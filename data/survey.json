@@ -1,0 +1,57 @@
+{
+  "id": "product-experience-q1-2026",
+  "title": "Product Experience Survey",
+  "description": "Help us improve the product. This survey takes around 3 to 4 minutes.",
+  "questions": [
+    {
+      "id": "role",
+      "prompt": "Which option best describes your role?",
+      "type": "single_choice",
+      "required": true,
+      "options": ["Founder", "Product Manager", "Developer", "Operations", "Other"]
+    },
+    {
+      "id": "overall_satisfaction",
+      "prompt": "How satisfied are you with the overall survey portal experience?",
+      "type": "rating",
+      "required": true,
+      "helperText": "1 = Very dissatisfied, 5 = Very satisfied",
+      "min": 1,
+      "max": 5
+    },
+    {
+      "id": "used_features",
+      "prompt": "Which parts of the product do you use most often?",
+      "type": "multi_choice",
+      "required": true,
+      "options": [
+        "Survey creation",
+        "Response collection",
+        "Dashboards and reporting",
+        "Exporting data",
+        "Integrations"
+      ]
+    },
+    {
+      "id": "favorite_part",
+      "prompt": "What is your favorite part of the current experience?",
+      "type": "textarea",
+      "required": true,
+      "placeholder": "Share what is working well..."
+    },
+    {
+      "id": "main_pain_point",
+      "prompt": "What is the biggest pain point you face right now?",
+      "type": "textarea",
+      "required": true,
+      "placeholder": "Share the biggest issue you are facing..."
+    },
+    {
+      "id": "feature_request",
+      "prompt": "If we could add one feature next, what should it be?",
+      "type": "text",
+      "required": true,
+      "placeholder": "Your highest-priority feature request"
+    }
+  ]
+}
