@@ -1,25 +1,25 @@
 @import "tailwindcss";
 
 :root {
-  --background: oklch(0.985 0.006 280.17);
-  --foreground: oklch(0.251 0.018 277.23);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.251 0.018 277.23);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.251 0.018 277.23);
-  --primary: oklch(0.593 0.186 258.21);
-  --primary-foreground: oklch(0.985 0.006 280.17);
-  --secondary: oklch(0.936 0.019 233.57);
-  --secondary-foreground: oklch(0.329 0.03 256.85);
-  --muted: oklch(0.956 0.008 280.36);
-  --muted-foreground: oklch(0.542 0.016 278.91);
-  --accent: oklch(0.899 0.058 185.02);
-  --accent-foreground: oklch(0.274 0.041 186.54);
-  --destructive: oklch(0.62 0.226 27.6);
-  --destructive-foreground: oklch(0.984 0.003 28.42);
-  --border: oklch(0.889 0.013 279.31);
-  --input: oklch(0.929 0.011 279.05);
-  --ring: oklch(0.593 0.186 258.21);
+  --background: #e7e2e2;
+  --foreground: #221d1d;
+  --card: #f5f1f1;
+  --card-foreground: #221d1d;
+  --popover: #f9f6f6;
+  --popover-foreground: #221d1d;
+  --primary: #e58f97;
+  --primary-foreground: #1f1a1a;
+  --secondary: #eadfdf;
+  --secondary-foreground: #352d2d;
+  --muted: #e2d9d9;
+  --muted-foreground: #837676;
+  --accent: #f2dddd;
+  --accent-foreground: #3f3434;
+  --destructive: #cb575f;
+  --destructive-foreground: #fff7f7;
+  --border: #ddd3d3;
+  --input: #efe7e7;
+  --ring: #cf9198;
   --radius: 1rem;
 }
 
@@ -59,16 +59,5 @@ body {
   color: var(--foreground);
   font-family: var(--font-manrope), sans-serif;
   min-height: 100vh;
-  background:
-    radial-gradient(
-      circle at 16% 18%,
-      oklch(0.902 0.077 242.49 / 0.34),
-      transparent 41%
-    ),
-    radial-gradient(
-      circle at 86% 82%,
-      oklch(0.904 0.081 178.93 / 0.28),
-      transparent 44%
-    ),
-    linear-gradient(180deg, oklch(0.99 0.006 280.17), oklch(0.969 0.011 278.7));
+  background: radial-gradient(circle at 12% 10%, #ece7e7, #e2dcdc 52%, #ddd6d6 100%);
 }
